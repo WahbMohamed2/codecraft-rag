@@ -1,0 +1,30 @@
+# Run this in your terminal to create it
+@"
+# Environment
+.env
+.env.*
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# ChromaDB persistent storage
+chroma_humaneval/
+chroma_db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# HuggingFace cache
+.cache/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
