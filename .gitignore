@@ -28,3 +28,6 @@ Thumbs.db
 # HuggingFace cache
 .cache/
 "@ | Out-File -FilePath .gitignore -Encoding utf8
+
+# Project config (contains API keys)
+config.py
